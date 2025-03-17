@@ -120,7 +120,7 @@ In the `main.js` module, invoke the `PotteryList` component function. Take its r
 > 🧨 Before you click the "Assessment Complete" button on the Learning Platform, add your answers below for each question and make a commit. It is your option to request a face-to-face meeting with a coach for a vocabulary review.
 
 1. Explain how you got the HTML, with the correct data, displayed in the browser?
-   > Your answer here I first created an article element in the HTML document with an id (NOT a class) of "potteryList". 
+   > I first created an article element in the HTML document with an id (NOT a class) of "potteryList". 
    > Then I used the document.getElementById() method passing in the "potteryList" Id and storing it in a variable.
    > I then used ".innerHTML" on that variable to render the result of the "potteryList()" function which was an HTML string.
 
@@ -131,4 +131,4 @@ In the `main.js` module, invoke the `PotteryList` component function. Take its r
 4. The pottery shop has learned that there is a set of customers that are willing to buy cracked pottery at a discounted price of $2.50. That means that the cracked pottery should now be displayed in the catalog. Explain the changes that this new business strategy would cause to your algorithm.
    > I would need to add a new else-if statement in the toSellOrNotToSell() function that identified any cracked pieces of pottery, created a new key on those objects with a value of "2.50" and then push each of those objects to the "sellPottery" array on that module.
 5. In the **Kiln** module, you have a `firePottery()` function. You need to demonstrate how to use the debugger to verify the values of the parameters for that function when your code runs. Use [Loom](https://www.loom.com/) to record your browser window with the developer tools open and show those values.
-   > Paste your video's public URL here [text](https://www.loom.com/share/06515886c69d4b98b87295382e9f5d1e?sid=34f66714-72c1-4ddf-b866-db6849c2519e)
+   > [Paste your video's public URL here](<https://www.loom.com/share/06515886c69d4b98b87295382e9f5d1e?sid=34f66714-72c1-4ddf-b866-db6849c2519e)>)
