@@ -120,12 +120,15 @@ In the `main.js` module, invoke the `PotteryList` component function. Take its r
 > 🧨 Before you click the "Assessment Complete" button on the Learning Platform, add your answers below for each question and make a commit. It is your option to request a face-to-face meeting with a coach for a vocabulary review.
 
 1. Explain how you got the HTML, with the correct data, displayed in the browser?
-   > Your answer here
+   > Your answer here I first created an article element in the HTML document with an id (NOT a class) of "potteryList". 
+   > Then I used the document.getElementById() method passing in the "potteryList" Id and storing it in a variable.
+   > I then used ".innerHTML" on that variable to render the result of the "potteryList()" function which was an HTML string.
+
 2. In the **PotteryList** module, when you iterate your pottery, you need to show the evidence of what the **weight** property's value is for the 2nd piece of pottery. Use [Loom](https://www.loom.com/) to record your browser window with the developer tools open and show those values.
-   > Paste your video's public URL here
+   > [Paste your video's public URL here](https://www.loom.com/share/ea6343af6ea141d2bf51815b406c2e30?sid=296f5774-1013-41c0-b030-357e399cb740)
 3. The **PotteryWheel** module has a single function named `makePottery`. Why doesn't that module have all of the other code in it?
-   > Your answer here
+   > We're using separate modules for each step in our pottery project. The makePottery module just handles the creation of our pottery objects whose values we're passing in as arguments on our "main.js" module when calling the makePottery() function.
 4. The pottery shop has learned that there is a set of customers that are willing to buy cracked pottery at a discounted price of $2.50. That means that the cracked pottery should now be displayed in the catalog. Explain the changes that this new business strategy would cause to your algorithm.
-   > Your answer here
+   > I would need to add a new else-if statement in the toSellOrNotToSell() function that identified any cracked pieces of pottery, created a new key on those objects with a value of "2.50" and then push each of those objects to the "sellPottery" array on that module.
 5. In the **Kiln** module, you have a `firePottery()` function. You need to demonstrate how to use the debugger to verify the values of the parameters for that function when your code runs. Use [Loom](https://www.loom.com/) to record your browser window with the developer tools open and show those values.
-   > Paste your video's public URL here
+   > Paste your video's public URL here [text](https://www.loom.com/share/06515886c69d4b98b87295382e9f5d1e?sid=34f66714-72c1-4ddf-b866-db6849c2519e)

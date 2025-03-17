@@ -26,6 +26,5 @@ toSellOrNotToSell(fired4)
 toSellOrNotToSell(fired5)
 
 // Invoke the component function that renders the HTML list
-const toRender = potteryList()
 const displayPottery = document.getElementById("potteryList")
-displayPottery.innerHTML = toRender
+displayPottery.innerHTML = potteryList()
