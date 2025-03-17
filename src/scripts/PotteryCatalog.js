@@ -6,6 +6,7 @@ export const toSellOrNotToSell = (potteryObj) => {
         sellPottery.push(potteryObj)
     }
     else if (potteryObj.weight < 6 && !potteryObj.cracked) {
+        potteryObj.price = 20
         sellPottery.push(potteryObj)
     }
 
